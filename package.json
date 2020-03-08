@@ -1,0 +1,33 @@
+{
+  "name": "crea-ems-pwa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "client": "cd client && set HTTPS=true && npm start",
+    "server": "nodemon server.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "prod": "concurrently \"npm run start\" \"cd client && serve -s build\""
+  },
+  "author": "WHISKERS",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "@google/maps": "^0.5.5",
+    "bcrypt": "^3.0.2",
+    "concurrently": "^4.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4",
+    "express-fileupload": "^1.0.0",
+    "fast-csv": "^2.4.1",
+    "helmet": "^3.15.1",
+    "joi": "^14.0.4",
+    "joi-objectid": "^2.0.0",
+    "jsonwebtoken": "^8.3.0",
+    "moment": "^2.22.2",
+    "mongoose": "^5.3.10",
+    "nodemailer": "^4.6.8",
+    "randomcolor": "^0.5.4"
+  }
+}
