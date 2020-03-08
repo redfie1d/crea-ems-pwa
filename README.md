@@ -1,4 +1,4 @@
-# Employee Management System (PWA)
+# CREA EMS
 CREA EMS is an online employee management platform that seeks to optimize and streamline process by minimising human error through automation and reduction of paperwork. It will also aid the administrators in resource management, which includes manpower allocation, payroll computation and analytics reports.
 
 ## Project Description
