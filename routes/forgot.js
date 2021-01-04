@@ -11,7 +11,7 @@ var Joi = require("joi");
 var nodemailer = require("nodemailer");
 var async = require("async");
 var crypto = require("crypto");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 
 // Require models
 const { User } = require("../models/user");

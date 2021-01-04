@@ -7,7 +7,7 @@ Routes for user management endpoints
 // Require node modules
 const express = require("express");
 const router = express.Router();
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const moment = require("moment");
 
 // Require middleware
